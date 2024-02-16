@@ -1,0 +1,371 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Navbar styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f0f0f0;
+}
+
+/* Banner styles */
+.banner {
+    height: fit-content;
+    text-align: center;
+    padding: 20% 0;
+    background-image: url("image/banner-image.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 10vh; 
+    /* Adjust this value as needed */
+}
+
+.banner h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.banner .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.banner .btn:hover {
+    background-color: #1202ec;
+}
+
+
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: underline;
+
+
+}
+/* Card styles */
+/* Item Card styles */
+.item-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.card p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:violet;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color:#0056b3;
+}
+
+/* Your existing styles go here */
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #111;
+}
+
+/* .social-icons{
+} */
+
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .column1, .column2, .column3 {
+        flex: 100%;
+    }
+}
+
+.heading-1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightslategrey;
+    font-size: 55px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration:underline;
+    text-shadow: #666;
+    text-transform:uppercase;
+    
+}
+
+.para{
+    margin: 5px 10% 10px 10%;      
+    font-size: 35px;
+    /* font-weight: bold; */
+    /* text-align:justify; */
+    color: white ;
+
+
+}
+/* text generation */
+.protest-riot-regular {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* prompt enginering */
+
+  .pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/* Embeddings */
+  .gloria-hallelujah-regular {
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+/* Text To Speech */
+  .lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+/* Speech To Text */
+  /* // <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 400 to 700 */
+
+.caveat-uniquifier {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+
+
+
+/* Introduction */
+.tangerine-regular {
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/* image generation */
+.tangerine-bold {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+  
+/* fine tuning */
+.patrick-hand-regular {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.homemade-apple-regular {
+    font-family: "Homemade Apple", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.mr-dafoe-regular {
+    font-family: "Mr Dafoe", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+  
+/* Vision */
+.short-stack-regular {
+    font-family: "Short Stack", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+.amita-regular {
+    font-family: "Amita", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.amita-bold {
+    font-family: "Amita", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+  
+
+
+
+.mrs-saint-delafield-regular {
+    font-family: "Mrs Saint Delafield", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/*Order List Fine-Tuning  */
+.order-list-fine-tuning {
+    list-style: decimal;
+    font-family: "Amita", serif;
+    font-weight: 700;
+    font-style: normal;
+    /* line-break: auto; */
+}
+
+
+/* unorder-list-fine-tuning */
+.unorder-list-fine-tuning{
+    list-style: disc;
+    font-family: "Amita", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.heading-3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(4, 0, 255);
+    font-size: 45px;
+    font-style: italic;
+    text-align: center;
+    text-decoration:underline;
+    text-shadow: #e2d5d5;
+    text-transform:uppercase;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.li-h-3{
+    text-decoration: underline;
+
+}
+
+/* order-list-introduction */
+.order-list-introduction{
+    list-style: decimal;
+    font-family: "Caveat", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
