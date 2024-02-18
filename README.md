@@ -28,8 +28,6 @@ To get a local copy up and running follow these simple steps.
 2-Run the development server
   npm start
 
-Replace the placeholders (`your_username`, `your_project_name`, `Your Name`, `@twitter_handle`, `email@example.com`) with your actual information.
-
 This README template provides a starting point for documenting your project on GitHub. You can further customize it based on the specifics of your project.
 Usage
 Navigate to the homepage to explore articles and resources.
