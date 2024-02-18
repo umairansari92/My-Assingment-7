@@ -5,18 +5,164 @@
     box-sizing: border-box;
 }
 
-/* Body styles */
+/* Fonts */
+/* Font families and styles */
+
+/* text generation */
+.protest-riot-regular {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* prompt enginering */
+  .pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* Embeddings */
+  .gloria-hallelujah-regular {
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* Text To Speech */
+  .lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* Speech To Text */
+.caveat-uniquifier {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+/* Introduction */
+.tangerine-regular {
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+/* image generation */
+.tangerine-bold {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+} 
+/* fine tuning */
+.patrick-hand-regular {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.homemade-apple-regular {
+    font-family: "Homemade Apple", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mr-dafoe-regular {
+    font-family: "Mr Dafoe", cursive;
+    font-weight: 400;
+    font-style: normal;
+}  
+/* Vision */
+.short-stack-regular {
+    font-family: "Short Stack", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.amita-regular {
+    font-family: "Amita", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.amita-bold {
+    font-family: "Amita", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.mrs-saint-delafield-regular {
+    font-family: "Mrs Saint Delafield", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+/*Order List Fine-Tuning  */
+.order-list-fine-tuning {
+    list-style: decimal;
+    font-family: "Amita", serif;
+    font-weight: 700;
+    font-style: normal;
+    /* line-break: auto; */
+}
+/* unorder-list-fine-tuning */
+.unorder-list-fine-tuning{
+    list-style: disc;
+    font-family: "Amita", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+/* Default Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #000;
+    background: rgb(0,1,3);
+    background: linear-gradient( rgba(0,1,3,1) 0%, rgba(0,1,3,0.6643032212885154) 25%, rgba(0,1,3,0.38699229691876746) 50%, rgba(0,1,3,0.13769257703081228) 75%, rgba(0,1,3,0.008841036414565795) 100%);
     color: #fff;
 }
 
-/* Header styles */
+/* Headings */
+/* Main headings and subheadings */
+.heading-1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightslategrey;
+    font-size: 55px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration:underline;
+    text-shadow: #666;
+    text-transform:uppercase;
+}
+
+.heading-3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(4, 0, 255);
+    font-size: 45px;
+    font-style: italic;
+    text-align: center;
+    text-decoration:underline;
+    text-shadow: #e2d5d5;
+    text-transform:uppercase;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+}
+
+/* Paragraphs */
+.para {
+    margin: 5px 10% 10px 10%;      
+    font-size: 35px;
+    color: white;
+}
+
+/* Headers */
+/* Styling for header elements */
 header {
     text-align: center;
     padding: 20px;
-    background-color: #111;
 }
 
 header h1 {
@@ -24,7 +170,8 @@ header h1 {
     font-weight: bold;
 }
 
-/* Navbar styles */
+/* Navigation */
+/* Styles for navigation elements */
 nav ul {
     list-style: none;
     display: flex;
@@ -47,7 +194,8 @@ nav a:hover {
     color: #f0f0f0;
 }
 
-/* Banner styles */
+/* Banner */
+/* Styles for banner */
 .banner {
     height: fit-content;
     text-align: center;
@@ -56,13 +204,12 @@ nav a:hover {
     background-size: cover;
     background-position: center;
     color: #fff;
-    height: 10vh; 
-    /* Adjust this value as needed */
 }
 
 .banner h2 {
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    margin-top: 40px;
 }
 
 .banner p {
@@ -71,6 +218,7 @@ nav a:hover {
 }
 
 .banner .btn {
+    margin-bottom: 10px;
     display: inline-block;
     padding: 10px 20px;
     background-color: #f0f0f0;
@@ -85,22 +233,15 @@ nav a:hover {
     background-color: #1202ec;
 }
 
-
-.container{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    text-decoration: underline;
-
-
-}
-/* Card styles */
-/* Item Card styles */
+/* Cards */
+/* Styles for card elements */
 .item-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
 }
+
 .card {
     background-color: #f9f9f9;
     padding: 20px;
@@ -126,7 +267,8 @@ nav a:hover {
     color: #666;
 }
 
-/* Button styles */
+/* Buttons */
+/* Styles for buttons */
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -143,229 +285,70 @@ nav a:hover {
     background-color:#0056b3;
 }
 
-/* Your existing styles go here */
-
-/* Footer Styles */
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
+/* Contact Page */
+/* Styles for contact page */
+.contact {
+    padding: 50px 0;
     text-align: center;
 }
 
-.social-icons a {
-    margin: 0 10px;
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
 }
 
-/* Dark Mode */
-.dark-mode {
-    background-color: #111;
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-/* .social-icons{
-} */
-
-
-/* Media queries */
-@media screen and (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
-    .column1, .column2, .column3 {
-        flex: 100%;
-    }
-}
-
-.heading-1{
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: lightslategrey;
-    font-size: 55px;
-    font-weight: bold;
-    font-style: italic;
-    text-align: center;
-    text-decoration:underline;
-    text-shadow: #666;
-    text-transform:uppercase;
-    
-}
-
-.para{
-    margin: 5px 10% 10px 10%;      
-    font-size: 35px;
-    /* font-weight: bold; */
-    /* text-align:justify; */
-    color: white ;
-
-
-}
-/* text generation */
-.protest-riot-regular {
-    font-family: "Protest Riot", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  /* prompt enginering */
-
-  .pacifico-regular {
-    font-family: "Pacifico", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-/* Embeddings */
-  .gloria-hallelujah-regular {
-    font-family: "Gloria Hallelujah", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-
-
-/* Text To Speech */
-  .lobster-regular {
-    font-family: "Lobster", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-
-
-/* Speech To Text */
-  /* // <uniquifier>: Use a uniquifier for the class name
-// <weight>: Use a value from 400 to 700 */
-
-.caveat-uniquifier {
-  font-family: "Caveat", cursive;
-  font-optical-sizing: auto;
-  /* font-weight: <weight>; */
-  font-style: normal;
-}
-
-
-
-
-/* Introduction */
-.tangerine-regular {
-    font-family: "Tangerine", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-
-
-
-/* image generation */
-.tangerine-bold {
-    font-family: "Tangerine", cursive;
-    font-weight: 700;
-    font-style: normal;
-}
-
-  
-/* fine tuning */
-.patrick-hand-regular {
-    font-family: "Patrick Hand", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-
-
-
-.homemade-apple-regular {
-    font-family: "Homemade Apple", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-
-
-.mr-dafoe-regular {
-    font-family: "Mr Dafoe", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-
-  
-/* Vision */
-.short-stack-regular {
-    font-family: "Short Stack", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-
-
-
-
-.amita-regular {
-    font-family: "Amita", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-  
-.amita-bold {
-    font-family: "Amita", serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-  
-
-
-
-.mrs-saint-delafield-regular {
-    font-family: "Mrs Saint Delafield", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-
-
-/*Order List Fine-Tuning  */
-.order-list-fine-tuning {
-    list-style: decimal;
-    font-family: "Amita", serif;
-    font-weight: 700;
-    font-style: normal;
-    /* line-break: auto; */
-}
-
-
-/* unorder-list-fine-tuning */
-.unorder-list-fine-tuning{
-    list-style: disc;
-    font-family: "Amita", serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.heading-3{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
+.form-container {
+    flex: 0.7;
+    max-width: 600px;
     margin-right: 20px;
-    color: rgb(4, 0, 255);
-    font-size: 45px;
-    font-style: italic;
-    text-align: center;
-    text-decoration:underline;
-    text-shadow: #e2d5d5;
-    text-transform:uppercase;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
-
-
-.li-h-3{
-    text-decoration: underline;
-
+.map-container {
+    flex: 0.7;
 }
 
-/* order-list-introduction */
-.order-list-introduction{
-    list-style: decimal;
-    font-family: "Caveat", cursive;
-    font-weight: 400;
-    font-style: normal;
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group country,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+/* Media Query Styling */
+@media screen and (max-width: 768px) {
+    /* Styles for screens up to 768px */
+    .map-container,
+    .form-container {
+        flex: 1;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Styles for screens up to 480px (Mobile) */
+    .banner h2 {
+        font-size: 24px;
+    }
 }
