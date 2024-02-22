@@ -113,10 +113,17 @@
 
 /* Default Styles */
 body {
+      background-image: url("image/background\ \(1\).jpg");
+      color: white;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
     font-family: Arial, sans-serif;
-    background: rgb(0,1,3);
-    background: linear-gradient( rgba(0,1,3,1) 0%, rgba(0,1,3,0.6643032212885154) 25%, rgba(0,1,3,0.38699229691876746) 50%, rgba(0,1,3,0.13769257703081228) 75%, rgba(0,1,3,0.008841036414565795) 100%);
-    color: #fff;
+    /* background: rgb(0,0,0);
+    /* background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.908000700280112) 21%, rgba(0,0,0,0.6979166666666667) 41%, rgba(10,0,0,0.639093137254902) 57%); */
+    /* background-image: linear-gradient( 179deg,  rgba(0,0,0,1) 9.2%, rgba(127,16,16,1) 103.9% ); */
+    /* color: #fff; */
 }
 
 /* Headings */
@@ -351,4 +358,39 @@ nav a:hover {
     .banner h2 {
         font-size: 24px;
     }
+}
+
+
+.container{
+    text-align:center;
+    /* display: flex; */
+    flex: 20px;
+    list-style: none;
+    justify-content: center;
+    padding: 10px 10px;
+    align-items: stretch;
+
+}
+
+.social-icons {
+    /* margin: 10px 10% 10px 10px; Adjust margin as needed */
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+/* copyright Styling */
+#copyright {
+    /* margin: 10px 10% 10px 10px; Adjust margin as needed */
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+/* Title Styling */
+#title {
+    color:white;
+    font-weight: bold;
 }
